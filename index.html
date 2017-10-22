@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nike Product card dark</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.ico"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<!-- BEGIN ba-container  -->
+	<div class="ba-container">
+		<div class="ba-product">
+			<header class="ba-header">
+				<a href="#">
+					<img src="img/logo.png" alt="logo">
+				</a>
+			</header>
+			<main>
+				<div class="cf">
+					<div class="ba-slider">
+						<img src="img/Nike-SB-Stefan-Janoski-Max.png" alt="product">
+						<!-- BEGIN ba-slider__colors  -->
+						<div class="ba-slider__colors">
+							<label class="ba-radio">
+								<input type="radio" name="colors" checked>
+								<span class="ba-radio__colors ba-radio__colors--grey"></span>
+							</label>
+							<label class="ba-radio">
+								<input type="radio" name="colors">
+								<span class="ba-radio__colors"></span>
+							</label>
+							<label class="ba-radio">
+								<input type="radio" name="colors">
+								<span class="ba-radio__colors ba-radio__colors--red"></span>
+							</label>
+							<label class="ba-radio">
+								<input type="radio" name="colors">
+								<span class="ba-radio__colors ba-radio__colors--blue"></span>
+							</label>
+						</div>
+						<!-- END ba-slider__colors -->
+					</div>
+					<div class="ba-product__body">
+						<h1 class="ba-product__title">Nike SB Stefan Janoski Max</h1>
+						<p class="ba-product__subtitle">Unisex Skateboarding Shoe</p>
+						<div class="ba-product__rating">
+							<i class="fa fa-star ba-gold"></i>
+							<i class="fa fa-star ba-gold"></i>
+							<i class="fa fa-star ba-gold"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</div>
+						<form class="ba-form-add-to-cart" method="post" action="#">
+							<!-- BEGIN ba-select  -->
+							<div class="ba-select">
+								<select name="Size" class="ba-select__size" value="Size">
+									<option value="Qty" selected hidden>Size</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+									<option value="11">11</option>
+								</select>
+								<select name="Qty" class="ba-select__quantity" value="Qty">
+									<option value="Qty" selected hidden>Qty</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</div>
+							<!-- END ba-select -->
+							<button class="ba-button--add-to-cart" type="submit">Add to cart</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+
+	</div>
+	<!-- END ba-container -->
+</body>
+</html>

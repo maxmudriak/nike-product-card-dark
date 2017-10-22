@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,400');
+body{
+	background: url(../img/main-bg.jpg);
+	background-size: cover;
+	color: #6e747d;
+	font: 100 14px/1.4 Raleway, sans-serif;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 730px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-product {
+	position: relative;
+	background: #111a28;
+	border-radius: 10px;
+	box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.82);
+	margin-top: 100px;
+}
+.ba-header {
+	padding: 20px 20px 10px;
+
+}
+.ba-slider {
+	float: left;
+	width: 62.67%;
+	padding: 45px 0 18px 36px;
+}
+.ba-product__body {
+	float: right;
+	width: 37.33%;
+	padding: 0 15px;
+}
+.ba-product__title {
+	margin-top: 0;
+	font-size: 24px;
+	line-height: 1.08;
+}
+.ba-radio input {
+	display: none;
+}
+.ba-radio__colors {
+	display: inline-block;
+	background: #FFF;
+	border-radius: 50%;
+	width: 9px;
+	height: 9px;
+	border: 2px solid transparent;
+	vertical-align: middle;
+	margin: 2px;
+}
+.ba-slider__colors {
+	width: 100%;
+	text-align: center;
+	margin-top: 73px;
+	padding-right: 50px;
+}
+:checked +.ba-radio__colors {
+	border-color: #000;
+	box-sizing: content-box;
+	width: 11px;
+	height: 11px;
+}
+.ba-radio__colors--grey {
+	background: #19233c;
+}
+.ba-radio__colors--red {
+	background: #eb2f2f;
+}
+.ba-radio__colors--blue {
+	background: #25e1e8;
+}
+.ba-select__size,
+ .ba-select__quantity {
+	background: transparent;
+	border-color: #6e747d;
+	padding: 6px 9px;
+}
+[class*="select"] option {
+	color: #000;
+}
+.ba-select {
+	margin: 26px 0;
+}
+.ba-gold {
+	color: #F4BF0F;
+}
+.ba-button--add-to-cart {
+	background: #1A2331;
+	width: 184px;
+	padding: 9px;
+	border: 1px solid #6e747d;
+}
