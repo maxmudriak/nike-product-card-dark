@@ -93,6 +93,7 @@ textarea {
 	border: 2px solid transparent;
 	vertical-align: middle;
 	margin: 2px;
+	cursor: pointer;
 }
 .ba-slider__colors {
 	width: 100%;
@@ -101,7 +102,7 @@ textarea {
 	padding-right: 50px;
 }
 :checked +.ba-radio__colors {
-	border-color: #000;
+	border-color: #6e747d;
 	box-sizing: content-box;
 	width: 11px;
 	height: 11px;
@@ -119,7 +120,15 @@ textarea {
  .ba-select__quantity {
 	background: transparent;
 	border-color: #6e747d;
-	padding: 6px 9px;
+	padding: 6px 31px 7px 9px;
+	cursor: pointer;
+	  -webkit-appearance: none;
+	  -moz-appearance: none;
+	  appearance: none;
+	background-image: url(../img/Rectangle.png);
+	background-position-x: 80%;
+	background-position-y: 50%;
+	background-repeat: no-repeat;
 }
 [class*="select"] option {
 	color: #000;
@@ -129,6 +138,12 @@ textarea {
 }
 .ba-gold {
 	color: #F4BF0F;
+}
+.fa-star:hover {
+	color: #F4BF0F;
+}
+.fa-star {
+	cursor: pointer;
 }
 .ba-button--add-to-cart {
 	background: #1A2331;
